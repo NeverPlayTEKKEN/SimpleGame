@@ -1,3 +1,4 @@
+package game.utils;
 import java.util.Scanner;
 
 //標準入力を扱うクラス
