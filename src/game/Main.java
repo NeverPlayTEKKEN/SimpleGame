@@ -1,11 +1,23 @@
 package game;
 
-import game.utils.InputHandler;
+import test.GuiTest;
+
+/*
+public class Main {
+	public static void main(String[] args) {
+		InputHandler input = new InputHandler();
+		OutputHandler output = new OutputHandler();
+		output.colorHandler();
+		System.out.println(input.readLine());
+		
+		
+	}
+}*/
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello");
-		InputHandler inp = new InputHandler();
-		System.out.println(inp.readLine());
+		GuiTest gui = new GuiTest();
+		gui.test();
+		
 	}
 }
