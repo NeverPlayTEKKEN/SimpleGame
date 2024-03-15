@@ -1,0 +1,11 @@
+{
+	"title": "Hello World",
+	"description": "これはjavaの学習のために作成したゲームです。",
+	"plot": [
+		{
+		"chapter":1,
+		"title": "Hello world",
+		"scanes": "テキストを入力してください"
+		}
+	]
+}

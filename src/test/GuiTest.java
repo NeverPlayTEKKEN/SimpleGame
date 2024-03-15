@@ -6,12 +6,13 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 public class GuiTest {
 	public static void test() {
 		JFrame frame = new JFrame("Simple Swing Example");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(1000, 750);
+		frame.setSize(300, 200);
 		
 		// ラベルを作成
         JLabel label = new JLabel("Hello, Swing!");
@@ -25,6 +26,12 @@ public class GuiTest {
             }
         });
         frame.add(button, BorderLayout.SOUTH);
+        
+        // テキストボックスを作成
+        JTextField text = new JTextField();
+        frame.add(text, BorderLayout.CENTER);
+        
+        
         
 		frame.setVisible(true);
 	}
